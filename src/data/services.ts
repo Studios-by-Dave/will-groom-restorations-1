@@ -4,6 +4,7 @@ export interface Service {
   summary: string;
   description: string;
   icon: string;
+  image?: string;
 }
 
 export const services: Service[] = [
@@ -15,6 +16,7 @@ export const services: Service[] = [
     description:
       "From tired heirlooms to damaged finds, we carefully assess each piece and bring it back to life — honouring its age, maker, and story while restoring structural integrity and visual warmth.",
     icon: "chair",
+    image: "/assets/will-groom-restoration-pics-1.png",
   },
   {
     slug: "refinishing",
@@ -24,6 +26,7 @@ export const services: Service[] = [
     description:
       "We remove worn or damaged coatings and rebuild the surface using period-appropriate techniques — hand-rubbed oils, shellac, and lacquer — for a finish that looks authentically aged, never plastic.",
     icon: "brush",
+    image: "/assets/will-groom-restoration-pics-2.png",
   },
   {
     slug: "structural-repair",
@@ -33,6 +36,7 @@ export const services: Service[] = [
     description:
       "Using traditional hide glues and expert joinery, we re-glue, re-joint, and reinforce frames so your furniture is as solid as the day it was built — without compromising its original construction.",
     icon: "tools",
+    image: "/assets/will-groom-restoration-pics-3.png",
   },
   {
     slug: "reupholstery",
@@ -42,6 +46,7 @@ export const services: Service[] = [
     description:
       "We coordinate with trusted upholstery partners to replace tired fabric and padding, selecting materials and techniques that complement the piece's era and your home.",
     icon: "fabric",
+    image: "/assets/will-groom-restoration-pics-4.png",
   },
   {
     slug: "cleaning-preservation",
